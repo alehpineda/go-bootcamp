@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	pathseparator "github.com/alehpineda/go-bootcamp/01-basics/03-path-separator"
+	changevalues "github.com/alehpineda/go-bootcamp/01-basics/05-change-values"
 	shadowing "github.com/alehpineda/go-bootcamp/01-basics/04-shadowing"
 	"github.com/alehpineda/go-bootcamp/mascot"
 	"rsc.io/quote"
@@ -17,4 +18,5 @@ func main() {
 	pathseparator.Pathseparator()
 	pathseparator.Blankpathseparator()
 	shadowing.Shadowing()
+	changevalues.TypeConversion()
 }
