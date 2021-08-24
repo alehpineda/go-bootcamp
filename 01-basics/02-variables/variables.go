@@ -1,11 +1,7 @@
 package variables
 
-var speed int
-var SpeeD int
-var _speed int
+// declare variables, go is strongly-typed
 
-func variables() {
-	speed = 1
-	SpeeD = 2
-	_speed = 3
-}
+var speed int // normal use
+var SpeeD int // this is exported, not normaly used
+var _speed int // uncommon but it happens
